@@ -1,0 +1,23 @@
+<!--New {{#each beerData}}
+<img src="{{this.image_url}}" alt="{{this.name}}" />
+<h3>{{this.name}}</h3>
+<p>{{this.description}}</p>
+{{/each}}
+code-->
+
+<!--Older code-->
+<!--{{#each beerData}}
+<img src="{{this.image_url}}" alt="{{this.name}}" />
+<strong>
+  <h3>{{this.name}}</h3>
+</strong>
+<p>{{this.tagline}}</p>
+<p>{{this.description}}</p>
+{{/each}} -->
+
+
+{{#each beerData}}
+<img src="{{this.image_url}}" alt="{{this.name}}" />
+<h3>{{this.name}}</h3>
+<p>{{this.description}}</p>
+{{/each}}
